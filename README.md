@@ -7,3 +7,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ```
 npm install react-type-animation
 ```
+
+# instalacion de react-icons
+
+```
+npm install react-icons --save
+```
+
+# instalacion de resend
+```
+npm install resend
+```
