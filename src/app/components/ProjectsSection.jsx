@@ -5,7 +5,7 @@ import ProjectTag from "./ProjectTag";
 
 const projectsData = [
   {
-    id: 1,
+    id: 0,
     title: "Babushka Landing Page",
     description: "Landing Page with Next Js",
     image: "/images/c.jpg",
