@@ -34,11 +34,11 @@ const HeroSection = () => {
           </p>
           <div className="">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#FB1F5F] via-[#982460] to-[#401D50] text-white">
-              Hire me
+              Contactame
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#FB1F5F]  via-[#982460] to-[#401D50] hover:bg-slate-800 mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 ease-in duration-150 rounded-full px-5 py-2">
-                Download CV
+                Descargar CV
               </span>
             </button>
           </div>
@@ -50,7 +50,7 @@ const HeroSection = () => {
               className="absolute transform -translate-x-1/2 -translate-y-1/4 top-1/2 left-1/2 "
               alt="ilustracion de birdie"
               height={300}
-              width={300}
+              width={250}
             />
           </div>
         </div>
