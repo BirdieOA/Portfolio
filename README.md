@@ -18,3 +18,12 @@ npm install react-icons --save
 ```
 npm install resend
 ```
+# instalacion de framer-motion 
+```
+npm install framer-motion
+```
+
+# instalacion de react-animated-numbers
+```
+npm install react-animated-number
+```

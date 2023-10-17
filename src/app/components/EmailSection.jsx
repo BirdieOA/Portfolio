@@ -21,15 +21,16 @@ const EmailSection = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.data,
+      body: JSONdata,
     }
     const response = await fetch(endpoint, options);
     const resData = await response.json();
   
+  
 
     if (response.status === 200 ) {
       console.log('Mensaje enviado')
-      setEmailSubmitted(true);
+      setEmailSubmitted(true);  
     }
   };
   return (
@@ -54,8 +55,6 @@ const EmailSection = () => {
       </div>
       <div>
         {emailSubmitted ? (<p className="text-green-500 text-sm mt-2">Envio exitoso</p>) : ( 
-      
-     
         <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <label htmlFor="email" className="text-white block text-lg font-medium">
             Email
