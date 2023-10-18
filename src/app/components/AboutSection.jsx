@@ -50,7 +50,7 @@ const AboutSection = () => {
     });
   };
   return (
-    <section className="text-white py-16">
+    <section className="text-white py-16" id="sobremi">
       <div className="md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/c.jpg"
@@ -60,7 +60,7 @@ const AboutSection = () => {
         />
         <div>
           <div className="flex flex-col text-left mt-4 md:mt-0 h-full">
-            <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Sobre Mi</h2>
             <p className="text-base lg:text-lg ">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
               ab, enim repudiandae non assumenda qui, asperiores sequi, iste
@@ -72,20 +72,20 @@ const AboutSection = () => {
                 selectTab={() => handleTabChange("skills")}
                 active={tab === "skills"}
               >
-                Skills
+                Habilidades
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("education")}
                 active={tab === "education"}
               >
                 {" "}
-                Education
+                Educación
               </TabButton>
               <TabButton
                 selectTab={() => handleTabChange("certifications")}
                 active={tab === "certifications"}
               >
-                Certifications
+                Certificaciones
               </TabButton>
             </div>
           </div>

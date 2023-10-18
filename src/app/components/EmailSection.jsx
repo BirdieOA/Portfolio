@@ -34,21 +34,19 @@ const EmailSection = () => {
     }
   };
   return (
-    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
-        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#FB1F5F]/70 to-transparent rounded-full h-80 w-80 z-0 blur-2xl absolute top-1/4 -left-4 transform -translate-x-1/2 -traslate-y-1/2"></div>
+    <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative" id="contacto">
+        <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#FB1F5F]/70 to-transparent rounded-full h-80 w-80 z-0 blur-2xl absolute top-1/4 -left-4 transform -translate-x-1/2 -traslate-y-1/2 hidden sm:block"></div>
       <div className="z-10">
         
-        <h5 className="text-xl font-bold text-white my-2">Contactame</h5>
-        <p className="text-[#adb7be] mb-4 max-w-md">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cumque
-          provident delectus reprehenderit maxime! Exercitationem culpa enim hic
-          vel ex?
+        <h5 className="text-xl font-bold text-white my-2">¡Hablemos!</h5>
+        <p className="text-white mb-4 max-w-md">
+        Convirtamos tus ideas en una experiencia digital efectiva y funcional. Tanto si se trata de un rediseño o de una nueva creación, estoy lista para abordar el desafío.  Si tenés alguna propuesta en mente, no dudes en contactarme.
         </p>
         <div className="Socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/BirdieOA" target="_blank">
             <BsGithub />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/mait%C3%A9-de-le%C3%B3n-57914a194/?locale=es_ES" target="_blank">
             <BsLinkedin />
           </Link>
         </div>

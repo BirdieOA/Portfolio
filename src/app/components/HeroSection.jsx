@@ -32,13 +32,13 @@ const HeroSection = () => {
             />
           </h1>
           <p className="mb-6 text-base sm:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ex,
-            voluptates itaque laudantium sapiente obcaecati?
+          Me entusiasma tener la oportunidad de colaborar en proyectos de desarrollo web para brindar experiencias digitales intuitivas y accesibles para todos los usuarios, ofreciendo diseños atractivos y funcionales.
           </p>
           <div className="">
+            <a href="#contacto">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#FB1F5F] via-[#982460] to-[#401D50] text-white">
               Contactame
-            </button>
+            </button></a>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#FB1F5F]  via-[#982460] to-[#401D50] hover:bg-slate-800 mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 ease-in duration-150 rounded-full px-5 py-2">
                 Descargar CV
