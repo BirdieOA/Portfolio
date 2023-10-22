@@ -75,7 +75,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold mb-8 md:mb-12 ">
         Mis Proyectos
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-row justify-center items-center gap-2 py-6 ">
         <ProjectTag
           onClick={handleChangeTag}
           name="All"
@@ -92,14 +92,14 @@ const ProjectsSection = () => {
           isSelected={tag === "Mobile"}
         />
       </div>
-      <ul  ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
-            transition={{duration: 0.3, delay: index * 0.4}}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
               key={project.id}

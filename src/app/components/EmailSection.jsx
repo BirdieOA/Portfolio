@@ -44,10 +44,10 @@ const EmailSection = () => {
         </p>
         <div className="Socials flex flex-row gap-2">
           <Link href="https://github.com/BirdieOA" target="_blank">
-            <BsGithub />
+            <BsGithub size={30} className="hover:text-slate-200"/>
           </Link>
           <Link href="https://www.linkedin.com/in/mait%C3%A9-de-le%C3%B3n-57914a194/?locale=es_ES" target="_blank">
-            <BsLinkedin />
+            <BsLinkedin  size={30} className="hover:text-slate-200"/>
           </Link>
         </div>
       </div>

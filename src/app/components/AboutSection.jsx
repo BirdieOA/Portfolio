@@ -13,8 +13,10 @@ const TAB_DATA = [
         <li>CSS</li>
         <li>JAVASCRIPT</li>
         <li>REACT</li>
-        <li>NODE.JS</li>
         <li>NEXT JS</li>
+        <li>TAILWINDCSS</li>
+        <li>NODE.JS</li>
+        <li>ASTRO</li>
       </ul>
     ),
   },
@@ -34,7 +36,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>FreeCodeCamp</li>
-        <li>Google</li>
       </ul>
     ),
   },
@@ -62,10 +63,16 @@ const AboutSection = () => {
           <div className="flex flex-col text-left mt-4 md:mt-0 h-full">
             <h2 className="text-4xl font-bold text-white mb-4">Sobre Mi</h2>
             <p className="text-base lg:text-lg ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
-              ab, enim repudiandae non assumenda qui, asperiores sequi, iste
-              ullam corrupti praesentium quis maxime repellendus officiis esse
-              suscipit. Est, culpa nostrum!
+              Soy una desarrolladora autodidacta con un enfoque equilibrado
+              entre el diseño y la programación. Aunque carezco de una formación
+              formal, invierto mi tiempo y esfuerzo en aprender y aplicar
+              habilidades de desarrollo web por mi cuenta. Mi interés se
+              extiende al diseño y la ilustración, lo que me permite crear
+              experiencias digitales atractivas y funcionales. Me mantengo
+              actualizada con las últimas tecnologías y aspiro a convertirme en
+              una desarrolladora Full Stack para abordar proyectos de manera
+              integral, desde el diseño hasta la implementación y gestión de
+              bases de datos.
             </p>
             <div className="flex flex-row justify-start mt-8">
               <TabButton

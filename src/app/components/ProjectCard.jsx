@@ -24,9 +24,17 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
             <BsFillEyeFill className="h-10 w-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[#adb7be]  cursor-pointer group-hover/link:text-white " />
           </Link>
         </div>
-        </div>
-      <div className="text-white rounded-b-xl py-6 px-4 bg-[#181818]">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
+      </div>
+      <div
+        className="text-white 
+      rounded-b-xl py-6 px-4 bg-[#181818]"
+      >
+        <h5
+          className="text-xl 
+        font-semibold mb-2"
+        >
+          {title}
+        </h5>
         <p className="text-[#adb7be]">{description}</p>
       </div>
     </div>
