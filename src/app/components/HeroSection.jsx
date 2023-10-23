@@ -54,7 +54,7 @@ const HeroSection = () => {
               className="absolute transform -translate-x-1/2 -translate-y-1/4 top-1/2 left-1/2 "
               alt="ilustracion de birdie"
               height={300}
-              width={250}
+              width={200}
             />
           </div>
         </motion.div>

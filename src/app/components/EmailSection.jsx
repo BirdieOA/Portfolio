@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from "react";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 
 const EmailSection = () => {
@@ -48,6 +48,9 @@ const EmailSection = () => {
           </Link>
           <Link href="https://www.linkedin.com/in/mait%C3%A9-de-le%C3%B3n-57914a194/?locale=es_ES" target="_blank">
             <BsLinkedin  size={30} className="hover:text-slate-200"/>
+          </Link>
+          <Link href="https://www.instagram.com/birdie.borda" target="_blank">
+          <BsInstagram  size={30} className="hover:text-slate-200"/>
           </Link>
         </div>
       </div>

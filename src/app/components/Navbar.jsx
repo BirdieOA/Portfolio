@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navlink from "./Navlink";
 import { BsTextRight, BsXLg } from "react-icons/bs";
 import MenuOverlay from "./MenuOverlay";
+import Image from "next/image";
 
 const navlinks = [
   {
@@ -25,12 +26,14 @@ const Navbar = () => {
   return (
     <nav className="fixed left-0 top-0 right-0 z-20 bg-[#121212]/100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          className="text-2xl md:text-4xl text-white font-semibold p-2"
-          href={"/"}
-        >
-          LOGO
-        </Link>
+           <Image
+              src="/images/logo.png"
+              className=""
+              alt="logo de portfolio"
+              height={100}
+              width={50}
+            />
+
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
