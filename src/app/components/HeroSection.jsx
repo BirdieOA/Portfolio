@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/bird.svg"
-              className="absolute transform -translate-x-1/2 -translate-y-1/4 top-1/2 left-1/2 "
+              className="absolute transform -translate-x-1/2 -translate-y-1/4 top-1/2 left-1/2 lg:w-[250px]"
               alt="ilustracion de birdie"
               height={300}
               width={200}

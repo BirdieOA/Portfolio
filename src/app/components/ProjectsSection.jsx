@@ -9,10 +9,10 @@ const projectsData = [
     id: 0,
     title: "Babushka Landing Page",
     description: "Landing Page with Next Js",
-    image: "/images/c.jpg",
+    image: "/projects/p1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/BirdieOA/BabushkaPage",
+    previewUrl: "https://babushka.conceptohexagono.com/",
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/c.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://babushka.conceptohexagono.com/",
   },
 ];
 
