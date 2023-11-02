@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
            <Image
               src="/images/logo.png"
-              className=""
+              className="p-1"
               alt="logo de portfolio"
               height={100}
               width={50}
@@ -51,7 +51,7 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="menu hidden md:block md:w-auto  " id="navbar">
+        <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex md:flex-row p-4 md:p-0 md:space-x-8 mt-0">
             {navlinks.map((link, index) => (
               <li key={index}>
